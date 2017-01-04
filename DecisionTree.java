@@ -58,7 +58,7 @@ public class DecisionTree {
 		boolean proceed = true;
 		
 		while(proceed) {		
-			System.out.println("Think of an object!");
+			System.out.println("Think of an animal!");
 			root = root.guess(in);	
 			proceed = wantContinue(in);
 		}
